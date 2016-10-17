@@ -1,5 +1,5 @@
 {
-  "name": "Austin Paul",
+  "name": "AustinPaul",
   "version": "0.1.4",
   "description": "Austin Paul Interactive Resume",
   "main": "index.js",
@@ -7,12 +7,12 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "body-parser": "^1.14.2",
-    "cookie-parser": "^1.4.0",
-    "ejs": "^2.3.4",
-    "express": "^4.13.3",
-    "http": "0.0.0",
-    "morgan": "^1.6.1"
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "ejs": "*",
+    "express": "*",
+    "http": "*",
+    "morgan": "*"
   },
   "engines": {
     "node": "0.12.2"
