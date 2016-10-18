@@ -214,7 +214,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 
     #profile .row * { text-align: center; }
 	
-    #education .education .experience-details > span { display: block; margin-bottom: 16px; }
+    #education .education .experience-details > span { display: block; margin-bottom: 6px; }
     #education .education .experience-details .seperator { display: none; }
 
     #experiences .experience .experience-details > span { display: block; margin-bottom: 6px; }
