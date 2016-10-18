@@ -93,6 +93,12 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #profile .row > div { margin-bottom: 20px; }
 #profile .row > div img { width: 100%; max-width: 246px; height: auto; }
 
+#education .education { margin-bottom: 20px; }
+#education .education p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
+#education .education .experience-details { display: block; margin-top: 6px; }
+#education .education .experience-details * { color: #22A39F; }
+#education .education .experience-details .seperator { color: #BCBCBC; }
+
 #experiences .experience { margin-bottom: 20px; }
 #experiences .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
 #experiences .experience .experience-details { display: block; margin-top: 6px; }
@@ -207,6 +213,9 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
     .hidden-phone { display: none; }
 
     #profile .row * { text-align: center; }
+	
+    #education .education .experience-details > span { display: block; margin-bottom: 6px; }
+    #education .education .experience-details .seperator { display: none; }
 
     #experiences .experience .experience-details > span { display: block; margin-bottom: 6px; }
     #experiences .experience .experience-details .seperator { display: none; }
