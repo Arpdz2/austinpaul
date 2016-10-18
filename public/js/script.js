@@ -4,7 +4,7 @@ $(document).ready(function()
 {
     applyHeader();
     applyNavigation();
-    applyMailTo();
+    /* applyMailTo(); */
     applyResize();
     checkHash();
     checkBrowser();
