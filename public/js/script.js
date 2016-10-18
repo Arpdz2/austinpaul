@@ -102,7 +102,7 @@ function stickyNavigation()
 
 /* MAILTO FUNCTION */
 
-function applyMailTo()
+/*function applyMailTo()
 {
     $('a[href*=mailto]').on('click', function(e)
     {
@@ -112,7 +112,7 @@ function applyMailTo()
 
         $(this).attr('href', 'mailto:' + lstrEmail);
     });
-}
+}*/
 
 /* RESIZE FUNCTION */
 
