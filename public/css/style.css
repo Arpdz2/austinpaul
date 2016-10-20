@@ -106,7 +106,9 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #experiences .experience .experience-details { display: block; margin-top: 6px; }
 #experiences .experience .experience-details * { color: #42A2DE; }
 #experiences .experience .experience-details .seperator { color: #BCBCBC; }
+#experiences .experience ul > li:hover  {background: #f2f2f2; }
 #experiences .experience ul {list-style-position: inside; padding-left:0; }
+#experiences .experience li{padding: 5px;}
 
 #abilities ul > li { min-height: 30px; padding: 3px 0px; }
 #abilities ul > li:hover { background: #FFFFFF; }
