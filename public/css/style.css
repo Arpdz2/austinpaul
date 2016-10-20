@@ -102,7 +102,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #education .education .experience-details .seperator { color: #BCBCBC; }
 
 #experiences .experience { margin-bottom: 20px; }
-#experiences .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
+#experiences .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px;  padding-left: 5px;}
 #experiences .experience .experience-details { display: block; margin-top: 6px; }
 #experiences .experience .experience-details * { color: #42A2DE; }
 #experiences .experience .experience-details .seperator { color: #BCBCBC; }
