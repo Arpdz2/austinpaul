@@ -153,7 +153,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #projects figure { position: relative; overflow: hidden; }
 #projects figure h3 { color: #FFF; font-weight: 600; margin-bottom: 5px; }
 #projects figure p > strong { width: 60px; display: inline-block; margin: 0px; }
-#projects figure img { width: 110%; }
+#projects figure img { width: 110%; vertical-align: top;}
 #projects figure figcaption {
     padding: 20px 30px;
     position: absolute;
