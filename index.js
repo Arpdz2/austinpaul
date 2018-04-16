@@ -4,6 +4,7 @@ var express = require('express'),
     morgan       = require('morgan'),
     cookieParser = require('cookie-parser'),
     http = require('http').Server(app),
+	enforce = require('express-sslify'),
     ejs = require('ejs');
 
 app.set('port', (process.env.PORT || 5000));
@@ -21,7 +22,7 @@ app.use(cookieParser()); // read cookies (needed for auth)
 // views is directory for all template files
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
-
+app.use(enforce.HTTPS({ trustProtoHeader: true })); //*****Enable for production to force https******
 
 app.get('/', function(request, response) {
   response.render('pages/index');
